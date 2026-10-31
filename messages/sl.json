@@ -1,0 +1,219 @@
+{
+  "common": {
+    "bookAppointment": "Rezervirajte termin",
+    "viewAllServices": "Poglej vse storitve",
+    "viewFullGallery": "Ogled celotne galerije",
+    "learnMore": "Več o tem",
+    "contactUs": "Kontaktirajte nas",
+    "closeMenu": "Zapri meni",
+    "openMenu": "Odpri meni",
+    "scroll": "Pomakni se navzdol"
+  },
+  "nav": {
+    "logo": "Gentleman's Choice",
+    "home": "Domov",
+    "services": "Storitve",
+    "gallery": "Galerija",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "products": "Izdelki"
+  },
+  "announcement": {
+    "text": "15 % popusta za nove stranke — uporabi kodo",
+    "code": "GENTLEMEN15",
+    "dismiss": "Zapri obvestilo"
+  },
+  "hero": {
+    "location": "Ljubljana, Slovenija",
+    "headline1": "Natančni rezi.",
+    "headline2": "Vrhunska",
+    "headline3": "izkušnja.",
+    "imageAlt": "Brivnica Gentleman's Choice",
+    "subtitle": "Stopite v Gentleman's Choice — kjer je vsaka pričeska oblikovana s spretnostjo, pozornostjo do detajlov in predanostjo vašemu najboljšemu videzu.",
+    "viewServices": "Poglej storitve"
+  },
+  "servicesPreview": {
+    "title": "Naše storitve",
+    "subtitle": "Strokovno striženje in urejanje po vaši meri."
+  },
+  "galleryPreview": {
+    "title": "Naše delo",
+    "subtitle": "Utrinek mojstrstva, ki ga prinašamo na vsak brivski stol."
+  },
+  "aboutIntro": {
+    "imageAlt": "Notranjost brivnice Gentleman's Choice",
+    "title": "O brivnici Gentleman's Choice",
+    "paragraph1": "Brivnica Gentleman's Choice je bila ustanovljena z enim poslanstvom: zagotoviti vrhunsko brivsko izkušnjo vsaki stranki, ki stopi skozi naša vrata. Naši izkušeni brivci združujejo klasične tehnike s sodobnimi slogi za videz, ki je tako dober, kot se počutite.",
+    "paragraph2": "Verjamemo, da je odlično striženje več kot le storitev — je izkušnja. Od trenutka, ko sednete, do končnega pogleda v ogledalo, poskrbimo, da je vsaka podrobnost popolna. Dobrodošli na stolu."
+  },
+  "bookingCta": {
+    "title": "Ste pripravljeni na novo pričesko?",
+    "subtitle": "Rezervirajte svoj termin še danes in izkusite razliko Gentleman's Choice."
+  },
+  "services": {
+    "metaTitle": "Storitve in cene",
+    "metaDescription": "Raziščite našo celotno ponudbo brivskih storitev, vključno s striženjem, 'skin fade' tehniko, urejanjem brade in britjem z vročo brisačo. Transparentne cene.",
+    "pageTitle": "Storitve",
+    "pageSubtitle": "Ponujamo celoten nabor profesionalnih brivskih storitev, stiliranja in nege las",
+    "sectionTitle": "Storitve urejanja",
+    "sectionSubtitle": "Kakovostno urejanje po poštenih cenah",
+    "items": {
+      "classicHaircut": {
+        "name": "Klasično striženje",
+        "description": "Bezvremensko striženje, prilagojeno vašemu slogu. Vključuje pranje, striženje in sušenje za čist, urejen videz."
+      },
+      "skinFade": {
+        "name": "Skin Fade",
+        "description": "Oster, čist prehod, ki se neopazno zlije od kože do želene dolžine. Natančnost na vrhuncu."
+      },
+      "beardTrim": {
+        "name": "Urejanje brade",
+        "description": "Oblikovanje in poudarjanje brade s strokovnim striženjem, urejanjem robov in nego za negovan videz."
+      },
+      "hotTowelShave": {
+        "name": "Britje z vročo brisačo",
+        "description": "Klasično britje z brivnikom in nego z vročo brisačo. Gladko, osvežujoče in globoko sproščujoče."
+      },
+      "kidsCut": {
+        "name": "Otroško striženje",
+        "description": "Potrpežljiva in zabavna izkušnja striženja za otroke do 12. leta. Poskrbimo, da je enostavno in prijetno."
+      },
+      "hairDesign": {
+        "name": "Hair Design",
+        "description": "Izrazite se s poljubnimi vzorci in dizajni. Zapleteni vzorci in kreativni rezi so naša specialiteta."
+      },
+      "fullServiceCombo": {
+        "name": "Kompletna storitev",
+        "description": "Celoten paket — striženje, urejanje brade in nega z vročo brisačo v enem vrhunskem terminu."
+      },
+      "seniorCut": {
+        "name": "Striženje za upokojence",
+        "description": "Kakovostno striženje za starejše od 60 let. Enaka spretnost in nega po znižani ceni."
+      }
+    }
+  },
+  "gallery": {
+    "metaTitle": "Galerija",
+    "metaDescription": "Prebrskajte naš portfelj natančnih striženj, prehodov in stilov brad v brivnici Gentleman's Choice v Ljubljani.",
+    "pageTitle": "Galerija",
+    "pageSubtitle": "Prebrskajte naš portfelj natančnih striženj, prehodov in stilov brad",
+    "sectionTitle": "Naše delo",
+    "sectionSubtitle": "Prebrskajte naše zadnje pričeske in sloge",
+    "categories": {
+      "all": "Vse",
+      "fades": "Prehodi (Fades)",
+      "beards": "Brade",
+      "classic": "Klasika"
+    },
+    "images": {
+      "highSkinFade": "High skin fade z ostrimi linijami",
+      "midTaperFade": "Mid taper fade s teksturo na vrhu",
+      "baldFadeDesign": "Bald fade z dizajnom",
+      "fullBeardTrim": "Urejanje in oblikovanje polne brade",
+      "shortBoxedBeard": "Kratka 'boxed' brada s čistimi robovi",
+      "longStyledBeard": "Dolga oblikovana brada s prehodom",
+      "classicSidePart": "Klasična pričeska s prečo ob strani",
+      "slickBackPompadour": "Začesana 'pompadour' pričeska",
+      "ivyLeagueCut": "Ivy league pričeska s čistim zaključkom"
+    }
+  },
+  "products": {
+    "metaTitle": "Izdelki za nego",
+    "metaDescription": "Vrhunski izdelki za nego, ki so na voljo v Gentleman's Choice v Ljubljani, vključno s pomadami, olji za brado in izdelki za stiliranje.",
+    "pageTitle": "Izdelki",
+    "pageSubtitle": "Vrhunski izdelki za nego, na voljo v brivnici",
+    "sectionTitle": "Izdelki za nego",
+    "sectionSubtitle": "Vrhunski izdelki na voljo v poslovalnici",
+    "inStoreNote": "Vsi izdelki so na voljo za nakup v brivnici. Kontaktirajte nas za zalogo in cene.",
+    "inStoreBadge": "Na voljo v brivnici",
+    "items": {
+      "premiumPomade": {
+        "name": "Premium pomada",
+        "description": "Pomada na vodni osnovi s srednjim utrjevanjem in visokim sijajem. Popolna za klasične, nazaj začesane pričeske."
+      },
+      "beardOil": {
+        "name": "Olje za brado",
+        "description": "Hranljiva mešanica naravnih olj, ki zmehča, neguje in spodbuja zdravo rast brade."
+      },
+      "stylingBalm": {
+        "name": "Balzam za stiliranje",
+        "description": "Lahek balzam s prilagodljivim utrjevanjem in naravnim videzom. Odličen za vsakodnevno teksturo."
+      },
+      "matteWax": {
+        "name": "Mat vosek",
+        "description": "Vosek z močnim utrjevanjem in čistim mat zaključkom. Idealen za teksturirane in moderne pričeske."
+      }
+    }
+  },
+  "about": {
+    "metaTitle": "O nas",
+    "metaDescription": "Spoznajte Gentleman's Choice — našo zgodbo, ekipo in predanost vrhunskemu urejanju v Ljubljani.",
+    "pageTitle": "O nas",
+    "pageSubtitle": "Naša zgodba, naša ekipa, naša obrt",
+    "storyTitle": "Naša zgodba",
+    "storyImageAlt": "Naša zgodba",
+    "paragraph1": "Brivnica Gentleman's Choice se je rodila v srcu Ljubljane leta 2012. Ustanovil jo je mojster brivstva Marcus James z vizijo, da v mesto, ki ga imenuje dom, prinese vrhunsko nego. Kar se je začelo kot majhna brivnica z enim stolom na Čopovi ulici, je zraslo v eno najbolj spoštovanih brivnic v Ljubljani, znano po natančnosti in vzdušju, kjer se počutite kot doma.",
+    "paragraph2": "Verjamemo, da je odlično striženje več kot storitev — je ritual. Vsaka stranka, ki sede v naš stol, je deležna izkušnje, ki temelji na spretnosti, potrpežljivosti in pozornosti do detajlov. Naši brivci se nenehno izobražujejo in združujejo preverjene tehnike z najnovejšimi trendi.",
+    "paragraph3": "Skupnost je v središču vsega, kar počnemo. Od sponzoriranja lokalnih mladinskih programov do gostovanja brezplačnih dni urejanja za tiste v stiski, Gentleman's Choice vrača Ljubljani v enakem duhu, kot ga je mesto dalo nam.",
+    "teamTitle": "Spoznajte ekipo",
+    "team": {
+      "marcusJames": {
+        "name": "Marcus James",
+        "role": "Mojster brivec",
+        "bio": "Z več kot 15 leti izkušenj je Marcus ustanovitelj Gentleman's Choice in kreativna sila za našimi prepoznavnimi slogi. Specializiran je za natančne prehode in je izšolal brivce po celotni Ljubljani."
+      },
+      "daniReyes": {
+        "name": "Dani Reyes",
+        "role": "Starejša stilistka",
+        "bio": "Dani prinaša 8 let izkušenj in strast do združevanja klasičnih tehnik z modernimi trendi. Znana po brezhibnem urejanju brad in dizajnih pričesk, ima zvest krog strank."
+      },
+      "tylerBrooks": {
+        "name": "Tyler Brooks",
+        "role": "Mlajši brivec",
+        "bio": "Vzhajajoči talent z dvema letoma izkušenj. Tyler je zaključil brivsko šolo kot najboljši v svojem razredu. Odličen je pri 'taper fade' prehodih in nenehno izpopolnjuje svoje znanje."
+      }
+    }
+  },
+  "booking": {
+    "metaTitle": "Rezervacija termina",
+    "metaDescription": "Rezervirajte svoj termin v Gentleman's Choice v Ljubljani. Izberite svojo storitev in želeni čas prek spleta.",
+    "pageTitle": "Rezervacija termina",
+    "pageSubtitle": "Rezervirajte obisk prek spleta — veselimo se vašega obiska",
+    "loaderText": "Gentleman's Choice",
+    "iframeTitle": "Rezerviraj termin",
+    "fallback": {
+      "heading": "Rezervirajte svoj termin",
+      "text": "Izberite čas, ki vam najbolj ustreza. Kliknite spodaj za odpiranje rezervacijske strani.",
+      "button": "Načrtuj termin",
+      "footer": "Omogoča Calendly — varna in enostavna spletna rezervacija"
+    },
+    "placeholder": {
+      "heading": "Spletna rezervacija",
+      "text": "Če želite omogočiti spletno rezervacijo, zamenjajte calendlyUrl v src/data/siteConfig.ts s svojo pravo Calendly povezavo.",
+      "setupButton": "Ustvari Calendly račun",
+      "contactButton": "Namesto tega nas kontaktirajte"
+    }
+  },
+  "contact": {
+    "metaTitle": "Kontakt",
+    "metaDescription": "Kontaktirajte Gentleman's Choice. Poiščite naš naslov, telefonsko številko, delovni čas in lokacijo v Ljubljani.",
+    "pageTitle": "Kontakt",
+    "pageSubtitle": "Obiščite nas ali nas kontaktirajte",
+    "sectionTitle": "Stopite v stik",
+    "sectionSubtitle": "Z veseljem vas bomo slišali",
+    "address": "Naslov",
+    "phone": "Telefon",
+    "email": "E-pošta",
+    "hours": "Delovni čas",
+    "mapsLabel": "Lokacija Gentleman's Choice na Google Zemljevidih"
+  },
+  "footer": {
+    "quickLinks": "Hitre povezave",
+    "contact": "Kontakt",
+    "copyright": "© 2024 Gentleman's Choice. Vse pravice pridržane."
+  },
+  "home": {
+    "metaTitle": "Vrhunska brivnica Ljubljana",
+    "metaDescription": "Gentleman's Choice ponuja natančno striženje, prehode, urejanje brade in britje z vročo brisačo v Ljubljani. Rezervirajte termin prek spleta."
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "common": {
+    "bookAppointment": "Book Appointment",
+    "viewAllServices": "View All Services",
+    "viewFullGallery": "View Full Gallery",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "scroll": "Scroll"
+  },
+  "nav": {
+    "logo": "Gentleman's Choice",
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "products": "Products"
+  },
+  "announcement": {
+    "text": "15% Off for First-Time Clients — Use Code",
+    "code": "GENTLEMEN15",
+    "dismiss": "Dismiss announcement"
+  },
+  "hero": {
+    "location": "Ljubljana, Slovenia",
+    "headline1": "Precision Cuts.",
+    "headline2": "Premium",
+    "headline3": "Experience.",
+    "imageAlt": "Gentleman's Choice Barbershop",
+    "subtitle": "Step into Gentleman's Choice — where every cut is crafted with skill, attention to detail, and a commitment to making you look your best.",
+    "viewServices": "View Services"
+  },
+  "servicesPreview": {
+    "title": "Our Services",
+    "subtitle": "Expert cuts and grooming tailored to your style."
+  },
+  "galleryPreview": {
+    "title": "Our Work",
+    "subtitle": "A glimpse of the craftsmanship we bring to every chair."
+  },
+  "aboutIntro": {
+    "imageAlt": "Gentleman's Choice Barbershop interior",
+    "title": "About Gentleman's Choice",
+    "paragraph1": "Gentleman's Choice was founded with one mission: to bring premium barbering to every client who walks through our doors. Our skilled barbers combine classic techniques with modern styles to deliver a cut that feels as good as it looks.",
+    "paragraph2": "We believe a great haircut is more than just a service — it's an experience. From the moment you sit down to the final look in the mirror, we ensure every detail is perfect. Welcome to the chair."
+  },
+  "bookingCta": {
+    "title": "Ready for a Fresh Cut?",
+    "subtitle": "Book your appointment today and experience the Gentleman's Choice difference."
+  },
+  "services": {
+    "metaTitle": "Services & Pricing",
+    "metaDescription": "Explore our full range of barbershop services including haircuts, skin fades, beard trims, and hot towel shaves. Transparent pricing.",
+    "pageTitle": "Services",
+    "pageSubtitle": "We Offer a Complete Range of Professional Barbering, Styling, and Hair Care Services",
+    "sectionTitle": "Grooming Services",
+    "sectionSubtitle": "Quality grooming at fair prices",
+    "items": {
+      "classicHaircut": {
+        "name": "Classic Haircut",
+        "description": "A timeless cut tailored to your style. Includes a wash, cut, and blow-dry for a clean, polished finish."
+      },
+      "skinFade": {
+        "name": "Skin Fade",
+        "description": "A sharp, clean fade that blends seamlessly from skin to your desired length. Precision at its finest."
+      },
+      "beardTrim": {
+        "name": "Beard Trim",
+        "description": "Shape and define your beard with expert trimming, edging, and conditioning for a well-groomed look."
+      },
+      "hotTowelShave": {
+        "name": "Hot Towel Shave",
+        "description": "A classic straight-razor shave with a hot towel treatment. Smooth, refreshing, and deeply relaxing."
+      },
+      "kidsCut": {
+        "name": "Kids Cut",
+        "description": "A patient, fun haircut experience designed for children under 12. We make it easy and enjoyable."
+      },
+      "hairDesign": {
+        "name": "Hair Design",
+        "description": "Express yourself with custom hair art and designs. Intricate patterns and creative cuts are our specialty."
+      },
+      "fullServiceCombo": {
+        "name": "Full Service Combo",
+        "description": "The complete package — haircut, beard trim, and hot towel treatment all in one premium session."
+      },
+      "seniorCut": {
+        "name": "Senior Cut",
+        "description": "Quality haircuts for seniors 60 and up. Same great skill and care at a discounted price."
+      }
+    }
+  },
+  "gallery": {
+    "metaTitle": "Gallery",
+    "metaDescription": "Browse our portfolio of precision cuts, fades, and beard styles at Gentleman's Choice in Ljubljana.",
+    "pageTitle": "Gallery",
+    "pageSubtitle": "Browse our portfolio of precision cuts, fades, and beard styles",
+    "sectionTitle": "Our Work",
+    "sectionSubtitle": "Browse our latest cuts and styles",
+    "categories": {
+      "all": "All",
+      "fades": "Fades",
+      "beards": "Beards",
+      "classic": "Classic"
+    },
+    "images": {
+      "highSkinFade": "High skin fade with sharp line up",
+      "midTaperFade": "Mid taper fade with textured top",
+      "baldFadeDesign": "Bald fade with design detail",
+      "fullBeardTrim": "Full beard trim and shape",
+      "shortBoxedBeard": "Short boxed beard with clean edges",
+      "longStyledBeard": "Long styled beard with fade",
+      "classicSidePart": "Classic side-part haircut",
+      "slickBackPompadour": "Slick back pompadour",
+      "ivyLeagueCut": "Ivy league cut with clean finish"
+    }
+  },
+  "products": {
+    "metaTitle": "Grooming Products",
+    "metaDescription": "Premium grooming products available at Gentleman's Choice in Ljubljana, including pomades, beard oils, and styling products.",
+    "pageTitle": "Products",
+    "pageSubtitle": "Premium grooming products available in store",
+    "sectionTitle": "Grooming Products",
+    "sectionSubtitle": "Premium products available in store",
+    "inStoreNote": "All products are available for purchase in store. Contact us for availability and pricing.",
+    "inStoreBadge": "Available In Store",
+    "items": {
+      "premiumPomade": {
+        "name": "Premium Pomade",
+        "description": "A water-based pomade with medium hold and high shine. Perfect for slick-backs and classic styles."
+      },
+      "beardOil": {
+        "name": "Beard Oil",
+        "description": "A nourishing blend of natural oils that softens, conditions, and promotes healthy beard growth."
+      },
+      "stylingBalm": {
+        "name": "Styling Balm",
+        "description": "Lightweight balm with flexible hold and natural finish. Great for everyday styling and texture."
+      },
+      "matteWax": {
+        "name": "Matte Wax",
+        "description": "Strong-hold wax with a clean matte finish. Ideal for textured cuts and modern styles."
+      }
+    }
+  },
+  "about": {
+    "metaTitle": "About",
+    "metaDescription": "Learn about Gentleman's Choice — our story, our team, and our commitment to premium grooming in Ljubljana, Slovenia.",
+    "pageTitle": "About Us",
+    "pageSubtitle": "Our story, our team, our craft",
+    "storyTitle": "Our Story",
+    "storyImageAlt": "Our Story",
+    "paragraph1": "Gentleman's Choice was born in the heart of Ljubljana in 2012, founded by master barber Marcus James with a single vision: to bring world-class grooming to the city he calls home. What started as a one-chair shop on Čopova ulica has grown into one of Ljubljana's most respected barbershops, known for precision cuts, immaculate fades, and an atmosphere that feels like home.",
+    "paragraph2": "We believe a great haircut is more than a service — it's a ritual. Every client who sits in our chair is treated to an experience rooted in skill, patience, and attention to detail. Our barbers train continuously, blending time-honored techniques with the latest trends to ensure every cut is tailored to you.",
+    "paragraph3": "Community is at the core of everything we do. From sponsoring local youth programs to hosting free grooming days for those in need, Gentleman's Choice is committed to giving back to Ljubljana in the same spirit it gave to us.",
+    "teamTitle": "Meet The Team",
+    "team": {
+      "marcusJames": {
+        "name": "Marcus James",
+        "role": "Master Barber",
+        "bio": "With over 15 years behind the chair, Marcus is the founder of Gentleman's Choice and the creative force behind our signature styles. He specializes in precision fades and has trained barbers across Ljubljana."
+      },
+      "daniReyes": {
+        "name": "Dani Reyes",
+        "role": "Senior Stylist",
+        "bio": "Dani brings 8 years of experience and a passion for blending classic techniques with modern trends. Known for immaculate beard work and hair designs, she has a loyal following of clients."
+      },
+      "tylerBrooks": {
+        "name": "Tyler Brooks",
+        "role": "Junior Barber",
+        "bio": "A rising talent with 2 years of experience, Tyler graduated top of his class from barber school. He excels at taper fades and is always pushing his craft with new techniques."
+      }
+    }
+  },
+  "booking": {
+    "metaTitle": "Book Appointment",
+    "metaDescription": "Book your appointment at Gentleman's Choice in Ljubljana. Choose your service and preferred time online.",
+    "pageTitle": "Book Appointment",
+    "pageSubtitle": "Schedule your visit online — we look forward to seeing you",
+    "loaderText": "Gentleman's Choice",
+    "iframeTitle": "Book an appointment",
+    "fallback": {
+      "heading": "Book Your Appointment",
+      "text": "Choose a time that works best for you. Click below to open our booking page.",
+      "button": "Schedule Appointment",
+      "footer": "Powered by Calendly — secure and easy online booking"
+    },
+    "placeholder": {
+      "heading": "Online Booking",
+      "text": "To enable online booking, replace the calendlyUrl in src/data/siteConfig.ts with your real Calendly link.",
+      "setupButton": "Create Calendly Account",
+      "contactButton": "Contact Us Instead"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "metaDescription": "Contact Gentleman's Choice. Find our address, phone number, hours, and location in Ljubljana, Slovenia.",
+    "pageTitle": "Contact",
+    "pageSubtitle": "Visit us or get in touch",
+    "sectionTitle": "Get In Touch",
+    "sectionSubtitle": "We'd love to hear from you",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Hours",
+    "mapsLabel": "Gentleman's Choice location on Google Maps"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "copyright": "© 2024 Gentleman's Choice. All rights reserved."
+  },
+  "home": {
+    "metaTitle": "Premium Barbershop Ljubljana",
+    "metaDescription": "Gentleman's Choice offers precision haircuts, fades, beard grooming, and hot towel shaves in Ljubljana, Slovenia. Book your appointment online."
+  }
+}

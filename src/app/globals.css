@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0A0A0A;
+  --color-secondary: #141414;
+  --color-accent: #B0B0B0;
+  --color-accent-light: #E0E0E0;
+  --color-accent-dark: #888888;
+  --color-muted: #6B7280;
+  --color-light: #F5F5F5;
+
+  --font-heading: var(--font-oswald), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  @apply bg-primary text-light antialiased;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: 0.02em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out;
+}
+
+.yarl__counter {
+  top: auto !important;
+  bottom: 16px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+@layer components {
+  .gold-gradient {
+    @apply bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent;
+  }
+
+  .btn-gold {
+    @apply inline-block bg-accent text-primary font-semibold px-6 py-2.5 rounded text-sm uppercase tracking-wider transition-all duration-200 hover:bg-accent-light;
+  }
+
+  .btn-outline-gold {
+    @apply inline-block border border-accent text-accent font-semibold px-6 py-2.5 rounded text-sm uppercase tracking-wider transition-all duration-200 hover:bg-accent hover:text-primary;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
