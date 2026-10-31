@@ -1,19 +1,32 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import { createMetadata } from "@/lib/metadata";
+import { Link } from "@/i18n/navigation";
 import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { siteConfig } from "@/data/siteConfig";
+import { OpeningStatus } from "@/components/hours/OpeningStatus";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("contact");
-  return {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "contact" });
+  return createMetadata({
+    locale,
+    path: "/contact",
     title: t("metaTitle"),
     description: t("metaDescription"),
-  };
+  });
 }
 
 export default async function ContactPage() {
   const t = await getTranslations("contact");
+  const tHours = await getTranslations("hours");
+  const tCommon = await getTranslations("common");
+  const tBooking = await getTranslations("bookingCta");
 
   return (
     <>
@@ -27,23 +40,26 @@ export default async function ContactPage() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Left Column — Contact Info */}
-          <div className="space-y-8">
+          <div data-reveal className="space-y-8">
             <div>
               <p className="text-xs text-muted uppercase tracking-widest mb-2 font-body">
-                {t("address")}
+                {t("location")}
               </p>
-              <p className="text-light">{siteConfig.address}</p>
+              <p className="text-light">{t("locationValue")}</p>
+              <p className="text-muted text-sm mt-1">{t("parking")}</p>
             </div>
 
             <div>
               <p className="text-xs text-muted uppercase tracking-widest mb-2 font-body">
-                {t("phone")}
+                {t("instagram")}
               </p>
               <a
-                href={`tel:${siteConfig.phone}`}
-                className="text-accent hover:text-accent-light transition-colors"
+                href={siteConfig.instagram.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent-dark transition-colors"
               >
-                {siteConfig.phone}
+                @{siteConfig.instagram.handle}
               </a>
             </div>
 
@@ -53,7 +69,7 @@ export default async function ContactPage() {
               </p>
               <a
                 href={`mailto:${siteConfig.email}`}
-                className="text-accent hover:text-accent-light transition-colors"
+                className="text-accent hover:text-accent-dark transition-colors"
               >
                 {siteConfig.email}
               </a>
@@ -63,30 +79,41 @@ export default async function ContactPage() {
               <p className="text-xs text-muted uppercase tracking-widest mb-2 font-body">
                 {t("hours")}
               </p>
+              <OpeningStatus className="mb-4" />
               <div className="space-y-3">
-                {siteConfig.hours.map((entry) => (
-                  <div key={entry.day} className="grid grid-cols-2 gap-4">
-                    <span className="text-light font-body">{entry.day}</span>
-                    <span className="text-muted font-body">{entry.hours}</span>
-                  </div>
-                ))}
+                <div className="grid grid-cols-2 gap-4">
+                  <span className="text-light font-body">{tHours("weekdays")}</span>
+                  <span className="text-muted font-body">
+                    {siteConfig.hours.opens}–{siteConfig.hours.closes}
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <span className="text-light font-body">{tHours("weekend")}</span>
+                  <span className="text-muted font-body">{tHours("closed")}</span>
+                </div>
               </div>
             </div>
           </div>
 
-          {/* Right Column — Google Maps */}
-          <div className="rounded-lg overflow-hidden border border-muted/20 aspect-[4/3] md:aspect-auto md:min-h-[400px]">
-            <iframe
-              src={siteConfig.googleMapsEmbedUrl}
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title={t("mapsLabel")}
-              aria-label={t("mapsLabel")}
-            />
+          {/* Right Column — How to book */}
+          <div data-reveal="zoom" style={{ "--d": "150ms" } as React.CSSProperties} className="card p-8 md:p-12 flex flex-col justify-center">
+            <h2 className="font-heading text-2xl md:text-3xl text-light uppercase mb-4">
+              {tBooking("title")}
+            </h2>
+            <p className="text-muted mb-8">{tBooking("subtitle")}</p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/booking" className="btn-gold text-center">
+                {tCommon("bookAppointment")}
+              </Link>
+              <a
+                href={siteConfig.instagram.dmUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-outline-gold text-center"
+              >
+                {tCommon("writeDm")}
+              </a>
+            </div>
           </div>
         </div>
       </div>

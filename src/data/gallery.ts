@@ -1,49 +1,16 @@
 import { GalleryImage } from "@/types";
 
+// TODO(client): stock placeholders — replace with the studio's own photos.
+const unsplash = (id: string) =>
+  `https://images.unsplash.com/photo-${id}?w=800&auto=format&fit=crop&q=80`;
+
 export const galleryImages: GalleryImage[] = [
-  {
-    id: "highSkinFade",
-    src: "https://images.unsplash.com/photo-1622288432450-277d0fef5ed6?w=600&auto=format&fit=crop&q=80",
-    category: "fades",
-  },
-  {
-    id: "midTaperFade",
-    src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&auto=format&fit=crop&q=80",
-    category: "fades",
-  },
-  {
-    id: "baldFadeDesign",
-    src: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&auto=format&fit=crop&q=80",
-    category: "fades",
-  },
-  {
-    id: "fullBeardTrim",
-    src: "https://images.unsplash.com/photo-1541533848490-bc8115cd6522?w=600&auto=format&fit=crop&q=80",
-    category: "beards",
-  },
-  {
-    id: "shortBoxedBeard",
-    src: "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?q=80&w=772&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "beards",
-  },
-  {
-    id: "longStyledBeard",
-    src: "https://images.unsplash.com/photo-1657105052497-f996284ffff8?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "beards",
-  },
-  {
-    id: "classicSidePart",
-    src: "https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "classic",
-  },
-  {
-    id: "slickBackPompadour",
-    src: "https://images.unsplash.com/photo-1672642150228-3fcd5826ec26?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "classic",
-  },
-  {
-    id: "ivyLeagueCut",
-    src: "https://images.unsplash.com/photo-1599351431529-5a74f50ef2e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-    category: "classic",
-  },
+  { id: "backMassage", src: unsplash("1519823551278-64ac92734fb1"), category: "treatments" },
+  { id: "shoulderMassage", src: unsplash("1519824145371-296894a0daa9"), category: "treatments" },
+  { id: "legMassage", src: unsplash("1611073615830-9f76902c10fe"), category: "treatments" },
+  { id: "oilMassage", src: unsplash("1544161515-4ab6ce6db874"), category: "treatments" },
+  { id: "towels", src: unsplash("1540555700478-4be289fbecef"), category: "studio" },
+  { id: "oils", src: unsplash("1556760544-74068565f05c"), category: "studio" },
+  { id: "candles", src: unsplash("1620733723572-11c53f73a416"), category: "studio" },
+  { id: "oilDrop", src: unsplash("1515377905703-c4788e51af15"), category: "studio" },
 ];

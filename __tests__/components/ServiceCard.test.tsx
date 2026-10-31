@@ -3,16 +3,19 @@ import { describe, it, expect } from "vitest";
 import { ServiceCard } from "@/components/ui/ServiceCard";
 
 describe("ServiceCard", () => {
-  it("renders service name and price", () => {
+  it("renders name, description and one row per length", () => {
     render(
       <ServiceCard
-        name="Classic Haircut"
-        description="Traditional haircut"
-        price={30}
-        duration="30 min"
-      />
+        name="Klasična masaža"
+        description="Sproščujoča masaža"
+        prices={[
+          { label: "30 min", price: "25 €" },
+          { label: "60 min", price: "45 €" },
+        ]}
+      />,
     );
-    expect(screen.getByText("Classic Haircut")).toBeInTheDocument();
-    expect(screen.getByText("$30")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Klasična masaža" })).toBeInTheDocument();
+    expect(screen.getAllByRole("listitem")).toHaveLength(2);
+    expect(screen.getByText("45 €")).toBeInTheDocument();
   });
 });

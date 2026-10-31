@@ -1,15 +1,23 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { GalleryGrid } from "@/components/gallery/GalleryGrid";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("gallery");
-  return {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "gallery" });
+  return createMetadata({
+    locale,
+    path: "/gallery",
     title: t("metaTitle"),
     description: t("metaDescription"),
-  };
+  });
 }
 
 export default async function GalleryPage() {

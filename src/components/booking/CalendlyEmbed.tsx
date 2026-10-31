@@ -5,12 +5,19 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { CalendlyLoader } from "@/components/booking/CalendlyLoader";
 import { CalendlyFallback } from "@/components/booking/CalendlyFallback";
+import { siteConfig } from "@/data/siteConfig";
+import { buildCalendlyEmbedSrc } from "@/lib/booking";
 
-const DEMO_URL = "https://calendly.com/urban-fade-demo";
+interface CalendlyEmbedProps {
+  /** Calendly event URL; empty string shows the "coming soon" state. */
+  url: string;
+  /** Text pre-filled into the event's first question (chosen massage + length). */
+  prefill?: string;
+}
 
-export function CalendlyEmbed({ url }: { url: string }) {
+export function CalendlyEmbed({ url, prefill }: CalendlyEmbedProps) {
   const t = useTranslations("booking");
-  const isPlaceholder = url === DEMO_URL || !url;
+  const isPlaceholder = !url;
 
   const [progress, setProgress] = useState(0);
   const [fading, setFading] = useState(false);
@@ -60,7 +67,7 @@ export function CalendlyEmbed({ url }: { url: string }) {
 
   if (isPlaceholder) {
     return (
-      <div className="bg-secondary border border-muted/20 rounded-lg p-12 text-center flex flex-col items-center gap-6">
+      <div className="card p-8 sm:p-12 text-center flex flex-col items-center gap-6">
         <div className="w-20 h-20 rounded-full bg-accent/10 flex items-center justify-center">
           <svg
             width="36"
@@ -80,16 +87,16 @@ export function CalendlyEmbed({ url }: { url: string }) {
           </svg>
         </div>
         <div>
-          <h3 className="font-heading text-2xl text-light uppercase tracking-wide mb-3">
+          <h2 className="font-heading text-2xl text-light uppercase tracking-wide mb-3">
             {t("placeholder.heading")}
-          </h3>
+          </h2>
           <p className="text-muted font-body max-w-md mx-auto">
             {t("placeholder.text")}
           </p>
         </div>
         <div className="flex flex-col sm:flex-row gap-4 mt-2">
           <a
-            href="https://calendly.com"
+            href={siteConfig.instagram.dmUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-gold"
@@ -121,9 +128,9 @@ export function CalendlyEmbed({ url }: { url: string }) {
       )}
 
       {/* Clipping Container - Centered via mx-auto */}
-      <div className="relative w-full h-[640px] max-w-[650px] overflow-hidden bg-white rounded-lg shadow-sm mx-auto">
+      <div className="relative w-full h-[640px] max-w-[650px] overflow-hidden bg-white rounded-3xl shadow-sm mx-auto">
         <iframe
-          src={`${url}?embed_type=Inline&hide_gdpr_banner=1&hide_landing_page_details=1&hide_event_type_details=1`}
+          src={buildCalendlyEmbedSrc(url, prefill)}
           className="absolute -top-[55px] left-0 w-full h-[750px] border-none"
           onLoad={() => setTimeout(dismissLoader, 3000)}
           title={t("iframeTitle")}

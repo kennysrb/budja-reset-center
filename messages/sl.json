@@ -1,219 +1,302 @@
 {
   "common": {
-    "bookAppointment": "Rezervirajte termin",
-    "viewAllServices": "Poglej vse storitve",
-    "viewFullGallery": "Ogled celotne galerije",
-    "learnMore": "Več o tem",
-    "contactUs": "Kontaktirajte nas",
+    "bookAppointment": "Rezerviraj termin",
+    "viewAllServices": "Vse masaže in cene",
+    "viewFullGallery": "Celotna galerija",
+    "learnMore": "Več o meni",
+    "contactUs": "Piši mi",
     "closeMenu": "Zapri meni",
     "openMenu": "Odpri meni",
-    "scroll": "Pomakni se navzdol"
+    "scroll": "Navzdol",
+    "writeDm": "Piši mi v DM",
+    "themeDark": "Vklopi temni način",
+    "themeLight": "Vklopi svetli način",
+    "switchLanguage": "Zamenjaj jezik",
+    "instagram": "Instagram"
   },
   "nav": {
-    "logo": "Gentleman's Choice",
+    "logo": "Budja Reset Center",
     "home": "Domov",
-    "services": "Storitve",
+    "services": "Masaže",
     "gallery": "Galerija",
-    "about": "O nas",
+    "about": "O meni",
     "contact": "Kontakt",
-    "products": "Izdelki"
+    "faq": "FAQ"
   },
   "announcement": {
-    "text": "15 % popusta za nove stranke — uporabi kodo",
-    "code": "GENTLEMEN15",
+    "text": "Privošči si reset v novem studiu.",
     "dismiss": "Zapri obvestilo"
   },
+  "hours": {
+    "title": "Delovni čas",
+    "weekdays": "Pon–Pet",
+    "weekend": "Sob–Ned",
+    "closed": "Zaprto",
+    "openNow": "Odprto · do {time}",
+    "opensToday": "Zaprto · odpremo danes ob {time}",
+    "opensTomorrow": "Zaprto · odpremo jutri ob {time}",
+    "opensOn": "Zaprto · odpremo {day} ob {time}",
+    "closedShort": "Zaprto",
+    "today": "danes",
+    "short": {
+      "1": "Pon",
+      "2": "Tor",
+      "3": "Sre",
+      "4": "Čet",
+      "5": "Pet",
+      "6": "Sob",
+      "7": "Ned"
+    },
+    "on": {
+      "1": "v ponedeljek",
+      "2": "v torek",
+      "3": "v sredo",
+      "4": "v četrtek",
+      "5": "v petek",
+      "6": "v soboto",
+      "7": "v nedeljo"
+    }
+  },
   "hero": {
-    "location": "Ljubljana, Slovenija",
-    "headline1": "Natančni rezi.",
-    "headline2": "Vrhunska",
-    "headline3": "izkušnja.",
-    "imageAlt": "Brivnica Gentleman's Choice",
-    "subtitle": "Stopite v Gentleman's Choice — kjer je vsaka pričeska oblikovana s spretnostjo, pozornostjo do detajlov in predanostjo vašemu najboljšemu videzu.",
-    "viewServices": "Poglej storitve"
+    "location": "Škofljica · Slovenija",
+    "headline1": "Privošči si",
+    "headline2": "reset",
+    "imageAlt": "Sproščujoča masaža v studiu Budja Reset Center",
+    "subtitle": "Klasična, športna in terapevtska masaža, masaža z ventuzami in analiza drže. Vsaka obravnava je prilagojena tebi.",
+    "viewServices": "Masaže in cene"
   },
   "servicesPreview": {
-    "title": "Naše storitve",
-    "subtitle": "Strokovno striženje in urejanje po vaši meri."
+    "title": "V ponudbi",
+    "subtitle": "Masaže po 30, 60 ali 90 minut — izbereš, kar tvoje telo potrebuje."
   },
   "galleryPreview": {
-    "title": "Naše delo",
-    "subtitle": "Utrinek mojstrstva, ki ga prinašamo na vsak brivski stol."
+    "title": "Studio",
+    "subtitle": "Miren prostor, topla svetloba in čas samo zate."
   },
   "aboutIntro": {
-    "imageAlt": "Notranjost brivnice Gentleman's Choice",
-    "title": "O brivnici Gentleman's Choice",
-    "paragraph1": "Brivnica Gentleman's Choice je bila ustanovljena z enim poslanstvom: zagotoviti vrhunsko brivsko izkušnjo vsaki stranki, ki stopi skozi naša vrata. Naši izkušeni brivci združujejo klasične tehnike s sodobnimi slogi za videz, ki je tako dober, kot se počutite.",
-    "paragraph2": "Verjamemo, da je odlično striženje več kot le storitev — je izkušnja. Od trenutka, ko sednete, do končnega pogleda v ogledalo, poskrbimo, da je vsaka podrobnost popolna. Dobrodošli na stolu."
+    "imageAlt": "Masaža hrbta v studiu Budja Reset Center",
+    "title": "O meni",
+    "paragraph1": "Sem Budja, certificirani maser. Izvajam klasično, športno in globinsko masažo, masažo z ventuzami in analizo drže.",
+    "paragraph2": "Pred vsako masažo si vzamem čas za kratek pogovor. Pomembno mi je, da razumem, kaj potrebuješ, zato na podlagi pogovora skupaj določiva najprimernejši pristop."
   },
   "bookingCta": {
-    "title": "Ste pripravljeni na novo pričesko?",
-    "subtitle": "Rezervirajte svoj termin še danes in izkusite razliko Gentleman's Choice."
+    "title": "Kako se naročiš?",
+    "subtitle": "Izberi termin na spletu ali mi piši v DM: katere težave oz. želje imaš, katero dolžino masaže želiš (30, 60 ali 90 min) in kateri dan ti ustreza."
   },
   "services": {
-    "metaTitle": "Storitve in cene",
-    "metaDescription": "Raziščite našo celotno ponudbo brivskih storitev, vključno s striženjem, 'skin fade' tehniko, urejanjem brade in britjem z vročo brisačo. Transparentne cene.",
-    "pageTitle": "Storitve",
-    "pageSubtitle": "Ponujamo celoten nabor profesionalnih brivskih storitev, stiliranja in nege las",
-    "sectionTitle": "Storitve urejanja",
-    "sectionSubtitle": "Kakovostno urejanje po poštenih cenah",
+    "metaTitle": "Masaže in cenik",
+    "metaDescription": "Klasična, športna in terapevtska masaža, masaža z ventuzami in trigger point terapija v Škofljici. Obravnave po 30, 60 ali 90 minut.",
+    "pageTitle": "Masaže",
+    "pageSubtitle": "Vsaka obravnava je prilagojena posamezniku.",
+    "sectionTitle": "Cenik",
+    "sectionSubtitle": "Cene veljajo za posamezno obravnavo. Pred začetkom vedno sledi kratek pogovor.",
+    "minutes": "{minutes} min",
     "items": {
-      "classicHaircut": {
-        "name": "Klasično striženje",
-        "description": "Bezvremensko striženje, prilagojeno vašemu slogu. Vključuje pranje, striženje in sušenje za čist, urejen videz."
+      "classic": {
+        "name": "Klasična masaža",
+        "description": "Sproščujoča masaža celega telesa ali posameznih predelov, ki zmanjša napetost in izboljša prekrvavitev."
       },
-      "skinFade": {
-        "name": "Skin Fade",
-        "description": "Oster, čist prehod, ki se neopazno zlije od kože do želene dolžine. Natančnost na vrhuncu."
+      "sports": {
+        "name": "Športna masaža",
+        "description": "Za rekreativce in športnike — pred naporom, po treningu ali v fazi regeneracije."
       },
-      "beardTrim": {
-        "name": "Urejanje brade",
-        "description": "Oblikovanje in poudarjanje brade s strokovnim striženjem, urejanjem robov in nego za negovan videz."
+      "therapeutic": {
+        "name": "Terapevtska masaža",
+        "description": "Globinska masaža, usmerjena v bolečine, zakrčene mišice in omejeno gibljivost."
       },
-      "hotTowelShave": {
-        "name": "Britje z vročo brisačo",
-        "description": "Klasično britje z brivnikom in nego z vročo brisačo. Gladko, osvežujoče in globoko sproščujoče."
+      "cupping": {
+        "name": "Masaža z ventuzami",
+        "description": "Ventuze sprostijo fascijo, izboljšajo pretok krvi in pospešijo regeneracijo mišic."
       },
-      "kidsCut": {
-        "name": "Otroško striženje",
-        "description": "Potrpežljiva in zabavna izkušnja striženja za otroke do 12. leta. Poskrbimo, da je enostavno in prijetno."
-      },
-      "hairDesign": {
-        "name": "Hair Design",
-        "description": "Izrazite se s poljubnimi vzorci in dizajni. Zapleteni vzorci in kreativni rezi so naša specialiteta."
-      },
-      "fullServiceCombo": {
-        "name": "Kompletna storitev",
-        "description": "Celoten paket — striženje, urejanje brade in nega z vročo brisačo v enem vrhunskem terminu."
-      },
-      "seniorCut": {
-        "name": "Striženje za upokojence",
-        "description": "Kakovostno striženje za starejše od 60 let. Enaka spretnost in nega po znižani ceni."
+      "triggerPoint": {
+        "name": "Trigger point terapija",
+        "description": "Ciljan pritisk na sprožilne točke, ki povzročajo lokalno ali preneseno bolečino."
       }
+    },
+    "posture": {
+      "name": "Analiza drže",
+      "description": "Pregled drže in gibanja, s katerim poiščem vzroke za napetosti in bolečine ter prilagodim nadaljnje obravnave.",
+      "note": "Cena po dogovoru"
+    },
+    "intro": {
+      "eyebrow": "Pristop",
+      "title": "Masaža, prilagojena tebi",
+      "text": "Vsaka obravnava se začne s pogovorom. Na podlagi tvojih težav, ciljev in počutja izberem tehniko in pritisk — od sproščujoče klasične masaže do ciljane terapije sprožilnih točk.",
+      "imageAlt": "Masažna olja in sveče v studiu",
+      "benefits": {
+        "talk": "Kratek pogovor pred vsako masažo",
+        "tailored": "Pristop, prilagojen tvojim težavam",
+        "lengths": "Obravnave po 30, 60 ali 90 minut",
+        "parking": "Brezplačno parkirišče pred studiem"
+      }
+    },
+    "process": {
+      "title": "Kako poteka obravnava",
+      "subtitle": "Od naročila do sprostitve v treh korakih."
     }
   },
   "gallery": {
     "metaTitle": "Galerija",
-    "metaDescription": "Prebrskajte naš portfelj natančnih striženj, prehodov in stilov brad v brivnici Gentleman's Choice v Ljubljani.",
+    "metaDescription": "Utrinki iz studia Budja Reset Center v Škofljici.",
     "pageTitle": "Galerija",
-    "pageSubtitle": "Prebrskajte naš portfelj natančnih striženj, prehodov in stilov brad",
-    "sectionTitle": "Naše delo",
-    "sectionSubtitle": "Prebrskajte naše zadnje pričeske in sloge",
+    "pageSubtitle": "Utrinki iz studia.",
+    "sectionTitle": "Studio in masaže",
+    "sectionSubtitle": "Prostor, ki je pripravljen samo zate.",
     "categories": {
       "all": "Vse",
-      "fades": "Prehodi (Fades)",
-      "beards": "Brade",
-      "classic": "Klasika"
+      "treatments": "Masaže",
+      "studio": "Studio"
     },
     "images": {
-      "highSkinFade": "High skin fade z ostrimi linijami",
-      "midTaperFade": "Mid taper fade s teksturo na vrhu",
-      "baldFadeDesign": "Bald fade z dizajnom",
-      "fullBeardTrim": "Urejanje in oblikovanje polne brade",
-      "shortBoxedBeard": "Kratka 'boxed' brada s čistimi robovi",
-      "longStyledBeard": "Dolga oblikovana brada s prehodom",
-      "classicSidePart": "Klasična pričeska s prečo ob strani",
-      "slickBackPompadour": "Začesana 'pompadour' pričeska",
-      "ivyLeagueCut": "Ivy league pričeska s čistim zaključkom"
-    }
-  },
-  "products": {
-    "metaTitle": "Izdelki za nego",
-    "metaDescription": "Vrhunski izdelki za nego, ki so na voljo v Gentleman's Choice v Ljubljani, vključno s pomadami, olji za brado in izdelki za stiliranje.",
-    "pageTitle": "Izdelki",
-    "pageSubtitle": "Vrhunski izdelki za nego, na voljo v brivnici",
-    "sectionTitle": "Izdelki za nego",
-    "sectionSubtitle": "Vrhunski izdelki na voljo v poslovalnici",
-    "inStoreNote": "Vsi izdelki so na voljo za nakup v brivnici. Kontaktirajte nas za zalogo in cene.",
-    "inStoreBadge": "Na voljo v brivnici",
-    "items": {
-      "premiumPomade": {
-        "name": "Premium pomada",
-        "description": "Pomada na vodni osnovi s srednjim utrjevanjem in visokim sijajem. Popolna za klasične, nazaj začesane pričeske."
-      },
-      "beardOil": {
-        "name": "Olje za brado",
-        "description": "Hranljiva mešanica naravnih olj, ki zmehča, neguje in spodbuja zdravo rast brade."
-      },
-      "stylingBalm": {
-        "name": "Balzam za stiliranje",
-        "description": "Lahek balzam s prilagodljivim utrjevanjem in naravnim videzom. Odličen za vsakodnevno teksturo."
-      },
-      "matteWax": {
-        "name": "Mat vosek",
-        "description": "Vosek z močnim utrjevanjem in čistim mat zaključkom. Idealen za teksturirane in moderne pričeske."
-      }
+      "backMassage": "Masaža hrbta",
+      "shoulderMassage": "Masaža ramen in vratu",
+      "legMassage": "Športna masaža noge",
+      "oilMassage": "Masaža z oljem",
+      "towels": "Pripravljene brisače v studiu",
+      "oils": "Masažna olja",
+      "candles": "Sveče in dišave v studiu",
+      "oilDrop": "Kapljica masažnega olja"
     }
   },
   "about": {
-    "metaTitle": "O nas",
-    "metaDescription": "Spoznajte Gentleman's Choice — našo zgodbo, ekipo in predanost vrhunskemu urejanju v Ljubljani.",
-    "pageTitle": "O nas",
-    "pageSubtitle": "Naša zgodba, naša ekipa, naša obrt",
-    "storyTitle": "Naša zgodba",
-    "storyImageAlt": "Naša zgodba",
-    "paragraph1": "Brivnica Gentleman's Choice se je rodila v srcu Ljubljane leta 2012. Ustanovil jo je mojster brivstva Marcus James z vizijo, da v mesto, ki ga imenuje dom, prinese vrhunsko nego. Kar se je začelo kot majhna brivnica z enim stolom na Čopovi ulici, je zraslo v eno najbolj spoštovanih brivnic v Ljubljani, znano po natančnosti in vzdušju, kjer se počutite kot doma.",
-    "paragraph2": "Verjamemo, da je odlično striženje več kot storitev — je ritual. Vsaka stranka, ki sede v naš stol, je deležna izkušnje, ki temelji na spretnosti, potrpežljivosti in pozornosti do detajlov. Naši brivci se nenehno izobražujejo in združujejo preverjene tehnike z najnovejšimi trendi.",
-    "paragraph3": "Skupnost je v središču vsega, kar počnemo. Od sponzoriranja lokalnih mladinskih programov do gostovanja brezplačnih dni urejanja za tiste v stiski, Gentleman's Choice vrača Ljubljani v enakem duhu, kot ga je mesto dalo nam.",
-    "teamTitle": "Spoznajte ekipo",
+    "metaTitle": "O meni",
+    "metaDescription": "Spoznaj maserja studia Budja Reset Center v Škofljici in pristop, ki je prilagojen tebi.",
+    "pageTitle": "O meni",
+    "pageSubtitle": "Tvoja varnost in dobro počutje sta mi na prvem mestu.",
+    "storyTitle": "Moj pristop",
+    "storyImageAlt": "Masaža ramen v studiu Budja Reset Center",
+    "paragraph1": "Masaža ni enaka za vse. Pred vsako obravnavo se pogovoriva o tvojih težavah, poškodbah in ciljih, nato pa skupaj izbereva najprimernejši pristop.",
+    "paragraph2": "Delam s klasično, športno in terapevtsko masažo, ventuzami in trigger point terapijo. Z analizo drže poiščem vzroke za napetosti, ne le njihove posledice.",
+    "paragraph3": "Studio v Škofljici je miren prostor, kjer je vse pripravljeno za masažo. Pred studiem je na voljo brezplačno parkirišče.",
+    "teamTitle": "Terapevt",
     "team": {
-      "marcusJames": {
-        "name": "Marcus James",
-        "role": "Mojster brivec",
-        "bio": "Z več kot 15 leti izkušenj je Marcus ustanovitelj Gentleman's Choice in kreativna sila za našimi prepoznavnimi slogi. Specializiran je za natančne prehode in je izšolal brivce po celotni Ljubljani."
-      },
-      "daniReyes": {
-        "name": "Dani Reyes",
-        "role": "Starejša stilistka",
-        "bio": "Dani prinaša 8 let izkušenj in strast do združevanja klasičnih tehnik z modernimi trendi. Znana po brezhibnem urejanju brad in dizajnih pričesk, ima zvest krog strank."
-      },
-      "tylerBrooks": {
-        "name": "Tyler Brooks",
-        "role": "Mlajši brivec",
-        "bio": "Vzhajajoči talent z dvema letoma izkušenj. Tyler je zaključil brivsko šolo kot najboljši v svojem razredu. Odličen je pri 'taper fade' prehodih in nenehno izpopolnjuje svoje znanje."
+      "budja": {
+        "name": "Budja",
+        "role": "Certificirani maser",
+        "bio": "Klasična, športna in globinska masaža · ventuze · analiza drže."
       }
     }
   },
   "booking": {
     "metaTitle": "Rezervacija termina",
-    "metaDescription": "Rezervirajte svoj termin v Gentleman's Choice v Ljubljani. Izberite svojo storitev in želeni čas prek spleta.",
-    "pageTitle": "Rezervacija termina",
-    "pageSubtitle": "Rezervirajte obisk prek spleta — veselimo se vašega obiska",
-    "loaderText": "Gentleman's Choice",
-    "iframeTitle": "Rezerviraj termin",
+    "metaDescription": "Rezerviraj masažo v studiu Budja Reset Center v Škofljici — 30, 60 ali 90 minut.",
+    "pageTitle": "Rezerviraj termin",
+    "pageSubtitle": "Izberi dolžino masaže in termin, ki ti ustreza.",
+    "loaderText": "Nalagam",
+    "iframeTitle": "Spletna rezervacija termina",
     "fallback": {
-      "heading": "Rezervirajte svoj termin",
-      "text": "Izberite čas, ki vam najbolj ustreza. Kliknite spodaj za odpiranje rezervacijske strani.",
-      "button": "Načrtuj termin",
-      "footer": "Omogoča Calendly — varna in enostavna spletna rezervacija"
+      "heading": "Koledar se ni naložil",
+      "text": "Rezervacijo lahko odpreš v novem zavihku ali mi pišeš v DM na Instagramu.",
+      "button": "Odpri rezervacijo",
+      "footer": "Rezervacije prek Calendly"
     },
     "placeholder": {
-      "heading": "Spletna rezervacija",
-      "text": "Če želite omogočiti spletno rezervacijo, zamenjajte calendlyUrl v src/data/siteConfig.ts s svojo pravo Calendly povezavo.",
-      "setupButton": "Ustvari Calendly račun",
-      "contactButton": "Namesto tega nas kontaktirajte"
+      "heading": "Spletna rezervacija prihaja kmalu",
+      "text": "Do takrat se naročiš prek DM na Instagramu. Napiši, katere težave imaš, katero dolžino masaže želiš (30, 60 ali 90 min) in kateri dan ti ustreza.",
+      "setupButton": "Piši mi na Instagramu",
+      "contactButton": "Kontakt"
+    },
+    "selected": "Izbrano",
+    "change": "Spremeni",
+    "preferDm": "Raje pišeš? Naroči se prek DM na Instagramu:",
+    "steps": {
+      "step1": "Izberi masažo in dolžino — 30, 60 ali 90 minut.",
+      "step2": "Izberi prost termin in napiši, katere težave oz. želje imaš.",
+      "step3": "Pred masažo sledi kratek pogovor, nato skupaj določiva najprimernejši pristop."
     }
   },
   "contact": {
     "metaTitle": "Kontakt",
-    "metaDescription": "Kontaktirajte Gentleman's Choice. Poiščite naš naslov, telefonsko številko, delovni čas in lokacijo v Ljubljani.",
+    "metaDescription": "Piši studiu Budja Reset Center v Škofljici — prek Instagrama ali e-pošte.",
     "pageTitle": "Kontakt",
-    "pageSubtitle": "Obiščite nas ali nas kontaktirajte",
-    "sectionTitle": "Stopite v stik",
-    "sectionSubtitle": "Z veseljem vas bomo slišali",
-    "address": "Naslov",
-    "phone": "Telefon",
+    "pageSubtitle": "Za termin ali vprašanje mi piši.",
+    "sectionTitle": "Piši mi",
+    "sectionSubtitle": "Najhitreje me ujameš v DM na Instagramu.",
+    "location": "Lokacija",
+    "locationValue": "Škofljica, Slovenija",
+    "parking": "Pred studiem je na voljo brezplačno parkirišče.",
+    "instagram": "Instagram",
     "email": "E-pošta",
-    "hours": "Delovni čas",
-    "mapsLabel": "Lokacija Gentleman's Choice na Google Zemljevidih"
+    "hours": "Delovni čas"
   },
   "footer": {
-    "quickLinks": "Hitre povezave",
+    "quickLinks": "Povezave",
     "contact": "Kontakt",
-    "copyright": "© 2024 Gentleman's Choice. Vse pravice pridržane."
+    "copyright": "© 2026 Budja Reset Center. Vse pravice pridržane.",
+    "tagline": "Masaža · ventuze · analiza drže"
   },
   "home": {
-    "metaTitle": "Vrhunska brivnica Ljubljana",
-    "metaDescription": "Gentleman's Choice ponuja natančno striženje, prehode, urejanje brade in britje z vročo brisačo v Ljubljani. Rezervirajte termin prek spleta."
+    "metaTitle": "Masaža v Škofljici",
+    "metaDescription": "Klasična, športna in terapevtska masaža, masaža z ventuzami, trigger point terapija in analiza drže v Škofljici. Rezerviraj termin na spletu."
+  },
+  "notFound": {
+    "title": "Stran ne obstaja",
+    "text": "Stran, ki jo iščeš, ne obstaja ali je bila premaknjena.",
+    "home": "Na domačo stran"
+  },
+  "info": {
+    "eyebrow": "Info",
+    "title": "Delovni čas",
+    "location": "Studio v Škofljici",
+    "parking": "Pred studiem je na voljo brezplačno parkirišče",
+    "booking": "Naročila na spletu ali prek DM na Instagramu"
+  },
+  "estimator": {
+    "title": "Izračun cene",
+    "subtitle": "Izberi masažo in dolžino — cena se izračuna takoj.",
+    "chooseMassage": "Masaža",
+    "chooseDuration": "Dolžina",
+    "notOffered": "Ta masaža ni na voljo v vseh dolžinah.",
+    "total": "Cena",
+    "bookThis": "Rezerviraj ta termin"
+  },
+  "faq": {
+    "metaTitle": "Pogosta vprašanja",
+    "metaDescription": "Kako se naročiš na masažo, kako se pripraviš in kaj mi moraš povedati pred začetkom — Budja Reset Center, Škofljica.",
+    "pageTitle": "FAQ",
+    "pageSubtitle": "Vse, kar moraš vedeti pred prvo masažo.",
+    "items": {
+      "booking": {
+        "q": "Kako se naročim?",
+        "a": [
+          "Termin izbereš na spletu ali mi pišeš v DM na Instagramu.",
+          "Ob sporočilu mi napiši, katere težave oz. želje imaš, katero dolžino masaže želiš (30, 60 ali 90 min) in kateri dan ti ustreza. Skupaj se nato dogovoriva za uro."
+        ]
+      },
+      "before": {
+        "q": "Kaj se zgodi pred začetkom masaže?",
+        "a": [
+          "Pred vsako masažo si vzamem čas za kratek pogovor. Pomembno mi je, da razumem, kaj potrebuješ, zato na podlagi pogovora skupaj določiva najprimernejši pristop.",
+          "Vsaka obravnava je prilagojena posamezniku."
+        ]
+      },
+      "prepare": {
+        "q": "Kako se pripravim?",
+        "a": [
+          "Masaža se izvaja v spodnjem perilu ali kratkih športnih hlačah.",
+          "Priporočam snemljiv modrček, saj tako omogočimo ustrezno dostopnost do predela hrbta, hkrati pa ohranimo tvoje udobje in zasebnost.",
+          "Pred masažo je potrebno odstraniti ves nakit. Prosim, da na masažo prideš svež/a in umit/a. Vse ostalo, kar potrebuješ za masažo, je pripravljeno v studiu."
+        ]
+      },
+      "health": {
+        "q": "Kaj mi moraš povedati pred začetkom?",
+        "a": [
+          "Pred začetkom me obvezno seznani z morebitnimi zdravstvenimi težavami, poškodbami, bolečinami, operacijami, nosečnostjo, zdravili ali drugimi okoliščinami, ki bi lahko vplivale na izvedbo masaže.",
+          "Tvoja varnost in dobro počutje sta mi na prvem mestu."
+        ]
+      },
+      "duration": {
+        "q": "Koliko časa traja masaža?",
+        "a": [
+          "Masaže so na voljo v dolžini 30, 60 ali 90 minut. Cene najdeš v ceniku."
+        ]
+      },
+      "parking": {
+        "q": "Ali je na voljo parkirišče?",
+        "a": [
+          "Da, pred studiem je na voljo brezplačno parkirišče."
+        ]
+      }
+    }
   }
 }

@@ -1,36 +1,38 @@
 import type { Metadata } from "next";
-import { Oswald, Inter } from "next/font/google";
+import { Jost, Mulish } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { siteConfig } from "@/data/siteConfig";
+import { themeInitScript } from "@/lib/theme";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
+import { FloatingActions } from "@/components/layout/FloatingActions";
+import { RevealObserver } from "@/components/layout/RevealObserver";
 import "../globals.css";
 
-const oswald = Oswald({
-  variable: "--font-oswald",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const jost = Jost({
+  variable: "--font-jost",
+  subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+const mulish = Mulish({
+  variable: "--font-mulish",
+  subsets: ["latin", "latin-ext"],
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gentlemanschoice.si"),
+  metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: "Gentleman's Choice | Premium Cuts & Grooming",
-    template: "%s | Gentleman's Choice",
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`,
   },
-  description:
-    "Premium barbershop in Ljubljana, Slovenia offering precision haircuts, fades, beard grooming, and hot towel shaves. Book online today.",
   openGraph: {
     type: "website",
-    siteName: "Gentleman's Choice",
+    siteName: siteConfig.name,
   },
 };
 
@@ -50,7 +52,14 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${oswald.variable} ${inter.variable}`}>
+    <html
+      lang={locale}
+      className={`${jost.variable} ${mulish.variable}`}
+      suppressHydrationWarning
+    >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           <div className="fixed top-0 left-0 right-0 z-50">
@@ -59,6 +68,8 @@ export default async function LocaleLayout({
           </div>
           <main>{children}</main>
           <Footer />
+          <FloatingActions />
+          <RevealObserver />
         </NextIntlClientProvider>
       </body>
     </html>

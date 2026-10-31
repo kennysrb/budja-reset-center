@@ -1,17 +1,19 @@
 "use client";
 
 import { useState, useRef, useEffect, useTransition } from "react";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 
+// Each language named in itself.
 const localeLabels: Record<string, string> = {
+  sl: "Slovenščina",
   en: "English",
-  sl: "Slovenian",
 };
 
 export function LocaleSwitcher() {
   const locale = useLocale();
+  const t = useTranslations("common");
   const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -40,9 +42,9 @@ export function LocaleSwitcher() {
       <button
         onClick={() => setOpen(!open)}
         disabled={isPending}
-        aria-label="Switch language"
+        aria-label={t("switchLanguage")}
         aria-expanded={open}
-        className="flex items-center gap-1.5 text-light/50 hover:text-white transition-colors duration-200 disabled:opacity-50 cursor-pointer"
+        className="flex items-center gap-1.5 text-light/60 hover:text-light transition-colors duration-200 disabled:opacity-50 cursor-pointer"
       >
         {/* Globe icon */}
         <svg
@@ -78,15 +80,16 @@ export function LocaleSwitcher() {
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-2 bg-secondary border border-muted/20 rounded-lg overflow-hidden shadow-xl z-50 min-w-[140px]">
+        <div className="absolute right-0 top-full mt-2 card overflow-hidden shadow-lg z-50 min-w-[140px]">
           {routing.locales.map((loc) => (
             <button
               key={loc}
               onClick={() => switchLocale(loc)}
+              lang={loc}
               className={`w-full text-left px-4 py-2.5 text-xs uppercase tracking-widest transition-colors duration-200 flex items-center gap-2 cursor-pointer ${
                 loc === locale
                   ? "text-accent bg-accent/10"
-                  : "text-muted hover:text-white hover:bg-white/5"
+                  : "text-muted hover:text-light hover:bg-light/5"
               }`}
             >
               {localeLabels[loc]}

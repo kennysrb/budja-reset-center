@@ -1,28 +1,34 @@
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import { services } from "@/data/services";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ServiceCard } from "@/components/ui/ServiceCard";
+import { availableDurations, formatPrice } from "@/lib/pricing";
 
 export async function ServicesPreview() {
   const t = await getTranslations("servicesPreview");
   const tServices = await getTranslations("services");
   const tCommon = await getTranslations("common");
+  const locale = await getLocale();
 
-  const previewServices = services.slice(0, 4);
+  const previewServices = services.slice(0, 3);
 
   return (
     <section className="py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-4">
         <SectionHeading title={t("title")} subtitle={t("subtitle")} />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {previewServices.map((service) => (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {previewServices.map((service, i) => (
             <ServiceCard
               key={service.id}
+              delay={i * 120}
+              image={service.image}
               name={tServices(`items.${service.id}.name`)}
               description={tServices(`items.${service.id}.description`)}
-              price={service.price}
-              duration={service.duration}
+              prices={availableDurations(service).map((minutes) => ({
+                label: tServices("minutes", { minutes }),
+                price: formatPrice(service.prices[minutes]!, locale),
+              }))}
             />
           ))}
         </div>

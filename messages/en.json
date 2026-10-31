@@ -1,219 +1,302 @@
 {
   "common": {
-    "bookAppointment": "Book Appointment",
-    "viewAllServices": "View All Services",
-    "viewFullGallery": "View Full Gallery",
-    "learnMore": "Learn More",
-    "contactUs": "Contact Us",
+    "bookAppointment": "Book a session",
+    "viewAllServices": "All massages & prices",
+    "viewFullGallery": "Full gallery",
+    "learnMore": "More about me",
+    "contactUs": "Message me",
     "closeMenu": "Close menu",
     "openMenu": "Open menu",
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "writeDm": "Send me a DM",
+    "themeDark": "Switch to dark mode",
+    "themeLight": "Switch to light mode",
+    "switchLanguage": "Switch language",
+    "instagram": "Instagram"
   },
   "nav": {
-    "logo": "Gentleman's Choice",
+    "logo": "Budja Reset Center",
     "home": "Home",
-    "services": "Services",
+    "services": "Massages",
     "gallery": "Gallery",
-    "about": "About",
+    "about": "About me",
     "contact": "Contact",
-    "products": "Products"
+    "faq": "FAQ"
   },
   "announcement": {
-    "text": "15% Off for First-Time Clients — Use Code",
-    "code": "GENTLEMEN15",
+    "text": "Treat yourself to a reset in the new studio.",
     "dismiss": "Dismiss announcement"
   },
+  "hours": {
+    "title": "Opening hours",
+    "weekdays": "Mon–Fri",
+    "weekend": "Sat–Sun",
+    "closed": "Closed",
+    "openNow": "Open now · until {time}",
+    "opensToday": "Closed · opens today at {time}",
+    "opensTomorrow": "Closed · opens tomorrow at {time}",
+    "opensOn": "Closed · opens {day} at {time}",
+    "closedShort": "Closed",
+    "today": "today",
+    "short": {
+      "1": "Mon",
+      "2": "Tue",
+      "3": "Wed",
+      "4": "Thu",
+      "5": "Fri",
+      "6": "Sat",
+      "7": "Sun"
+    },
+    "on": {
+      "1": "on Monday",
+      "2": "on Tuesday",
+      "3": "on Wednesday",
+      "4": "on Thursday",
+      "5": "on Friday",
+      "6": "on Saturday",
+      "7": "on Sunday"
+    }
+  },
   "hero": {
-    "location": "Ljubljana, Slovenia",
-    "headline1": "Precision Cuts.",
-    "headline2": "Premium",
-    "headline3": "Experience.",
-    "imageAlt": "Gentleman's Choice Barbershop",
-    "subtitle": "Step into Gentleman's Choice — where every cut is crafted with skill, attention to detail, and a commitment to making you look your best.",
-    "viewServices": "View Services"
+    "location": "Škofljica · Slovenia",
+    "headline1": "Treat yourself",
+    "headline2": "to a reset",
+    "imageAlt": "Relaxing massage at the Budja Reset Center studio",
+    "subtitle": "Classic, sports and therapeutic massage, cupping and posture analysis. Every session is tailored to you.",
+    "viewServices": "Massages & prices"
   },
   "servicesPreview": {
-    "title": "Our Services",
-    "subtitle": "Expert cuts and grooming tailored to your style."
+    "title": "What I offer",
+    "subtitle": "30, 60 or 90-minute sessions — choose what your body needs."
   },
   "galleryPreview": {
-    "title": "Our Work",
-    "subtitle": "A glimpse of the craftsmanship we bring to every chair."
+    "title": "The studio",
+    "subtitle": "A calm space, warm light and time just for you."
   },
   "aboutIntro": {
-    "imageAlt": "Gentleman's Choice Barbershop interior",
-    "title": "About Gentleman's Choice",
-    "paragraph1": "Gentleman's Choice was founded with one mission: to bring premium barbering to every client who walks through our doors. Our skilled barbers combine classic techniques with modern styles to deliver a cut that feels as good as it looks.",
-    "paragraph2": "We believe a great haircut is more than just a service — it's an experience. From the moment you sit down to the final look in the mirror, we ensure every detail is perfect. Welcome to the chair."
+    "imageAlt": "Back massage at the Budja Reset Center studio",
+    "title": "About me",
+    "paragraph1": "I'm Budja, a certified massage therapist. I offer classic, sports and deep-tissue massage, cupping and posture analysis.",
+    "paragraph2": "Before every massage I take time for a short conversation. It matters to me that I understand what you need, so together we choose the approach that suits you best."
   },
   "bookingCta": {
-    "title": "Ready for a Fresh Cut?",
-    "subtitle": "Book your appointment today and experience the Gentleman's Choice difference."
+    "title": "How to book",
+    "subtitle": "Pick a slot online or send me a DM: tell me what's bothering you or what you'd like, which length you want (30, 60 or 90 min) and which day suits you."
   },
   "services": {
-    "metaTitle": "Services & Pricing",
-    "metaDescription": "Explore our full range of barbershop services including haircuts, skin fades, beard trims, and hot towel shaves. Transparent pricing.",
-    "pageTitle": "Services",
-    "pageSubtitle": "We Offer a Complete Range of Professional Barbering, Styling, and Hair Care Services",
-    "sectionTitle": "Grooming Services",
-    "sectionSubtitle": "Quality grooming at fair prices",
+    "metaTitle": "Massages & prices",
+    "metaDescription": "Classic, sports and therapeutic massage, cupping and trigger point therapy in Škofljica, Slovenia. 30, 60 or 90-minute sessions.",
+    "pageTitle": "Massages",
+    "pageSubtitle": "Every session is tailored to the individual.",
+    "sectionTitle": "Price list",
+    "sectionSubtitle": "Prices are per session. Every session starts with a short conversation.",
+    "minutes": "{minutes} min",
     "items": {
-      "classicHaircut": {
-        "name": "Classic Haircut",
-        "description": "A timeless cut tailored to your style. Includes a wash, cut, and blow-dry for a clean, polished finish."
+      "classic": {
+        "name": "Classic massage",
+        "description": "A relaxing full-body or targeted massage that eases tension and improves circulation."
       },
-      "skinFade": {
-        "name": "Skin Fade",
-        "description": "A sharp, clean fade that blends seamlessly from skin to your desired length. Precision at its finest."
+      "sports": {
+        "name": "Sports massage",
+        "description": "For athletes and active people — before exertion, after training or during recovery."
       },
-      "beardTrim": {
-        "name": "Beard Trim",
-        "description": "Shape and define your beard with expert trimming, edging, and conditioning for a well-groomed look."
+      "therapeutic": {
+        "name": "Therapeutic massage",
+        "description": "Deep-tissue work focused on pain, tight muscles and restricted mobility."
       },
-      "hotTowelShave": {
-        "name": "Hot Towel Shave",
-        "description": "A classic straight-razor shave with a hot towel treatment. Smooth, refreshing, and deeply relaxing."
+      "cupping": {
+        "name": "Cupping massage",
+        "description": "Cups release the fascia, improve blood flow and speed up muscle recovery."
       },
-      "kidsCut": {
-        "name": "Kids Cut",
-        "description": "A patient, fun haircut experience designed for children under 12. We make it easy and enjoyable."
-      },
-      "hairDesign": {
-        "name": "Hair Design",
-        "description": "Express yourself with custom hair art and designs. Intricate patterns and creative cuts are our specialty."
-      },
-      "fullServiceCombo": {
-        "name": "Full Service Combo",
-        "description": "The complete package — haircut, beard trim, and hot towel treatment all in one premium session."
-      },
-      "seniorCut": {
-        "name": "Senior Cut",
-        "description": "Quality haircuts for seniors 60 and up. Same great skill and care at a discounted price."
+      "triggerPoint": {
+        "name": "Trigger point therapy",
+        "description": "Targeted pressure on trigger points that cause local or referred pain."
       }
+    },
+    "posture": {
+      "name": "Posture analysis",
+      "description": "A look at your posture and movement to find the causes of tension and pain, and to tailor further sessions.",
+      "note": "Price on request"
+    },
+    "intro": {
+      "eyebrow": "Approach",
+      "title": "Massage tailored to you",
+      "text": "Every session starts with a conversation. Based on your problems, goals and how you feel, I choose the technique and pressure — from a relaxing classic massage to targeted trigger point therapy.",
+      "imageAlt": "Massage oils and candles in the studio",
+      "benefits": {
+        "talk": "A short chat before every massage",
+        "tailored": "An approach tailored to your needs",
+        "lengths": "30, 60 or 90-minute sessions",
+        "parking": "Free parking in front of the studio"
+      }
+    },
+    "process": {
+      "title": "How a session works",
+      "subtitle": "From booking to relaxation in three steps."
     }
   },
   "gallery": {
     "metaTitle": "Gallery",
-    "metaDescription": "Browse our portfolio of precision cuts, fades, and beard styles at Gentleman's Choice in Ljubljana.",
+    "metaDescription": "A look inside the Budja Reset Center studio in Škofljica.",
     "pageTitle": "Gallery",
-    "pageSubtitle": "Browse our portfolio of precision cuts, fades, and beard styles",
-    "sectionTitle": "Our Work",
-    "sectionSubtitle": "Browse our latest cuts and styles",
+    "pageSubtitle": "A look inside the studio.",
+    "sectionTitle": "Studio & sessions",
+    "sectionSubtitle": "A space prepared just for you.",
     "categories": {
       "all": "All",
-      "fades": "Fades",
-      "beards": "Beards",
-      "classic": "Classic"
+      "treatments": "Massages",
+      "studio": "Studio"
     },
     "images": {
-      "highSkinFade": "High skin fade with sharp line up",
-      "midTaperFade": "Mid taper fade with textured top",
-      "baldFadeDesign": "Bald fade with design detail",
-      "fullBeardTrim": "Full beard trim and shape",
-      "shortBoxedBeard": "Short boxed beard with clean edges",
-      "longStyledBeard": "Long styled beard with fade",
-      "classicSidePart": "Classic side-part haircut",
-      "slickBackPompadour": "Slick back pompadour",
-      "ivyLeagueCut": "Ivy league cut with clean finish"
-    }
-  },
-  "products": {
-    "metaTitle": "Grooming Products",
-    "metaDescription": "Premium grooming products available at Gentleman's Choice in Ljubljana, including pomades, beard oils, and styling products.",
-    "pageTitle": "Products",
-    "pageSubtitle": "Premium grooming products available in store",
-    "sectionTitle": "Grooming Products",
-    "sectionSubtitle": "Premium products available in store",
-    "inStoreNote": "All products are available for purchase in store. Contact us for availability and pricing.",
-    "inStoreBadge": "Available In Store",
-    "items": {
-      "premiumPomade": {
-        "name": "Premium Pomade",
-        "description": "A water-based pomade with medium hold and high shine. Perfect for slick-backs and classic styles."
-      },
-      "beardOil": {
-        "name": "Beard Oil",
-        "description": "A nourishing blend of natural oils that softens, conditions, and promotes healthy beard growth."
-      },
-      "stylingBalm": {
-        "name": "Styling Balm",
-        "description": "Lightweight balm with flexible hold and natural finish. Great for everyday styling and texture."
-      },
-      "matteWax": {
-        "name": "Matte Wax",
-        "description": "Strong-hold wax with a clean matte finish. Ideal for textured cuts and modern styles."
-      }
+      "backMassage": "Back massage",
+      "shoulderMassage": "Shoulder and neck massage",
+      "legMassage": "Sports leg massage",
+      "oilMassage": "Oil massage",
+      "towels": "Fresh towels in the studio",
+      "oils": "Massage oils",
+      "candles": "Candles and scents in the studio",
+      "oilDrop": "A drop of massage oil"
     }
   },
   "about": {
-    "metaTitle": "About",
-    "metaDescription": "Learn about Gentleman's Choice — our story, our team, and our commitment to premium grooming in Ljubljana, Slovenia.",
-    "pageTitle": "About Us",
-    "pageSubtitle": "Our story, our team, our craft",
-    "storyTitle": "Our Story",
-    "storyImageAlt": "Our Story",
-    "paragraph1": "Gentleman's Choice was born in the heart of Ljubljana in 2012, founded by master barber Marcus James with a single vision: to bring world-class grooming to the city he calls home. What started as a one-chair shop on Čopova ulica has grown into one of Ljubljana's most respected barbershops, known for precision cuts, immaculate fades, and an atmosphere that feels like home.",
-    "paragraph2": "We believe a great haircut is more than a service — it's a ritual. Every client who sits in our chair is treated to an experience rooted in skill, patience, and attention to detail. Our barbers train continuously, blending time-honored techniques with the latest trends to ensure every cut is tailored to you.",
-    "paragraph3": "Community is at the core of everything we do. From sponsoring local youth programs to hosting free grooming days for those in need, Gentleman's Choice is committed to giving back to Ljubljana in the same spirit it gave to us.",
-    "teamTitle": "Meet The Team",
+    "metaTitle": "About me",
+    "metaDescription": "Meet the massage therapist behind Budja Reset Center in Škofljica and an approach tailored to you.",
+    "pageTitle": "About me",
+    "pageSubtitle": "Your safety and well-being come first.",
+    "storyTitle": "My approach",
+    "storyImageAlt": "Shoulder massage at the Budja Reset Center studio",
+    "paragraph1": "Massage isn't one-size-fits-all. Before every session we talk about your problems, injuries and goals, then choose the right approach together.",
+    "paragraph2": "I work with classic, sports and therapeutic massage, cupping and trigger point therapy. Posture analysis helps me find the causes of tension, not just the symptoms.",
+    "paragraph3": "The studio in Škofljica is a calm space where everything you need is ready. Free parking is available in front of the studio.",
+    "teamTitle": "Therapist",
     "team": {
-      "marcusJames": {
-        "name": "Marcus James",
-        "role": "Master Barber",
-        "bio": "With over 15 years behind the chair, Marcus is the founder of Gentleman's Choice and the creative force behind our signature styles. He specializes in precision fades and has trained barbers across Ljubljana."
-      },
-      "daniReyes": {
-        "name": "Dani Reyes",
-        "role": "Senior Stylist",
-        "bio": "Dani brings 8 years of experience and a passion for blending classic techniques with modern trends. Known for immaculate beard work and hair designs, she has a loyal following of clients."
-      },
-      "tylerBrooks": {
-        "name": "Tyler Brooks",
-        "role": "Junior Barber",
-        "bio": "A rising talent with 2 years of experience, Tyler graduated top of his class from barber school. He excels at taper fades and is always pushing his craft with new techniques."
+      "budja": {
+        "name": "Budja",
+        "role": "Certified massage therapist",
+        "bio": "Classic, sports and deep-tissue massage · cupping · posture analysis."
       }
     }
   },
   "booking": {
-    "metaTitle": "Book Appointment",
-    "metaDescription": "Book your appointment at Gentleman's Choice in Ljubljana. Choose your service and preferred time online.",
-    "pageTitle": "Book Appointment",
-    "pageSubtitle": "Schedule your visit online — we look forward to seeing you",
-    "loaderText": "Gentleman's Choice",
-    "iframeTitle": "Book an appointment",
+    "metaTitle": "Book a session",
+    "metaDescription": "Book a massage at Budja Reset Center in Škofljica — 30, 60 or 90 minutes.",
+    "pageTitle": "Book a session",
+    "pageSubtitle": "Choose the length of your massage and a time that suits you.",
+    "loaderText": "Loading",
+    "iframeTitle": "Online booking",
     "fallback": {
-      "heading": "Book Your Appointment",
-      "text": "Choose a time that works best for you. Click below to open our booking page.",
-      "button": "Schedule Appointment",
-      "footer": "Powered by Calendly — secure and easy online booking"
+      "heading": "The calendar didn't load",
+      "text": "You can open the booking page in a new tab or send me a DM on Instagram.",
+      "button": "Open booking",
+      "footer": "Booking powered by Calendly"
     },
     "placeholder": {
-      "heading": "Online Booking",
-      "text": "To enable online booking, replace the calendlyUrl in src/data/siteConfig.ts with your real Calendly link.",
-      "setupButton": "Create Calendly Account",
-      "contactButton": "Contact Us Instead"
+      "heading": "Online booking coming soon",
+      "text": "Until then, book via Instagram DM. Tell me what's bothering you, which length you'd like (30, 60 or 90 min) and which day suits you.",
+      "setupButton": "Message me on Instagram",
+      "contactButton": "Contact"
+    },
+    "selected": "Your selection",
+    "change": "Change",
+    "preferDm": "Prefer to message? Book via Instagram DM:",
+    "steps": {
+      "step1": "Pick a massage and a length — 30, 60 or 90 minutes.",
+      "step2": "Choose a free slot and tell me what's bothering you or what you'd like.",
+      "step3": "Every session starts with a short chat, then we choose the best approach together."
     }
   },
   "contact": {
     "metaTitle": "Contact",
-    "metaDescription": "Contact Gentleman's Choice. Find our address, phone number, hours, and location in Ljubljana, Slovenia.",
+    "metaDescription": "Get in touch with Budja Reset Center in Škofljica — via Instagram or email.",
     "pageTitle": "Contact",
-    "pageSubtitle": "Visit us or get in touch",
-    "sectionTitle": "Get In Touch",
-    "sectionSubtitle": "We'd love to hear from you",
-    "address": "Address",
-    "phone": "Phone",
+    "pageSubtitle": "Message me to book or ask a question.",
+    "sectionTitle": "Get in touch",
+    "sectionSubtitle": "The quickest way to reach me is an Instagram DM.",
+    "location": "Location",
+    "locationValue": "Škofljica, Slovenia",
+    "parking": "Free parking is available in front of the studio.",
+    "instagram": "Instagram",
     "email": "Email",
-    "hours": "Hours",
-    "mapsLabel": "Gentleman's Choice location on Google Maps"
+    "hours": "Opening hours"
   },
   "footer": {
-    "quickLinks": "Quick Links",
+    "quickLinks": "Links",
     "contact": "Contact",
-    "copyright": "© 2024 Gentleman's Choice. All rights reserved."
+    "copyright": "© 2026 Budja Reset Center. All rights reserved.",
+    "tagline": "Massage · cupping · posture analysis"
   },
   "home": {
-    "metaTitle": "Premium Barbershop Ljubljana",
-    "metaDescription": "Gentleman's Choice offers precision haircuts, fades, beard grooming, and hot towel shaves in Ljubljana, Slovenia. Book your appointment online."
+    "metaTitle": "Massage in Škofljica",
+    "metaDescription": "Classic, sports and therapeutic massage, cupping, trigger point therapy and posture analysis in Škofljica, Slovenia. Book online."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you're looking for doesn't exist or has been moved.",
+    "home": "Back to home"
+  },
+  "info": {
+    "eyebrow": "Info",
+    "title": "Opening hours",
+    "location": "Studio in Škofljica",
+    "parking": "Free parking in front of the studio",
+    "booking": "Book online or via Instagram DM"
+  },
+  "estimator": {
+    "title": "Price calculator",
+    "subtitle": "Pick a massage and a length — the price updates instantly.",
+    "chooseMassage": "Massage",
+    "chooseDuration": "Length",
+    "notOffered": "This massage isn't offered in every length.",
+    "total": "Price",
+    "bookThis": "Book this session"
+  },
+  "faq": {
+    "metaTitle": "FAQ",
+    "metaDescription": "How to book a massage, how to prepare and what to tell me before we start — Budja Reset Center, Škofljica.",
+    "pageTitle": "FAQ",
+    "pageSubtitle": "Everything you need to know before your first massage.",
+    "items": {
+      "booking": {
+        "q": "How do I book?",
+        "a": [
+          "Pick a slot online or send me a DM on Instagram.",
+          "In your message, tell me what's bothering you or what you'd like, which length you want (30, 60 or 90 min) and which day suits you. We then agree on a time together."
+        ]
+      },
+      "before": {
+        "q": "What happens before the massage?",
+        "a": [
+          "Before every massage I take time for a short conversation. It matters to me that I understand what you need, so together we choose the best approach.",
+          "Every session is tailored to the individual."
+        ]
+      },
+      "prepare": {
+        "q": "How should I prepare?",
+        "a": [
+          "The massage is done in underwear or short sports shorts.",
+          "I recommend a bra you can unclip, so the back is easy to reach while your comfort and privacy are kept.",
+          "Please remove all jewellery before the massage and arrive fresh and showered. Everything else you need is ready in the studio."
+        ]
+      },
+      "health": {
+        "q": "What should I tell you before we start?",
+        "a": [
+          "Before we start, you must tell me about any health problems, injuries, pain, surgery, pregnancy, medication or other circumstances that could affect the massage.",
+          "Your safety and well-being come first."
+        ]
+      },
+      "duration": {
+        "q": "How long does a massage take?",
+        "a": [
+          "Sessions are 30, 60 or 90 minutes. You'll find the prices in the price list."
+        ]
+      },
+      "parking": {
+        "q": "Is there parking?",
+        "a": [
+          "Yes, free parking is available in front of the studio."
+        ]
+      }
+    }
   }
 }

@@ -1,19 +1,10 @@
 import { TeamMember } from "@/types";
 
+// TODO(client): replace with a real portrait of the therapist.
 export const team: TeamMember[] = [
   {
-    id: "marcusJames",
+    id: "budja",
     image:
-      "https://plus.unsplash.com/premium_photo-1661720137713-a85a195e0b1e?w=400&h=400&auto=format&fit=crop&crop=faces&q=80",
-  },
-  {
-    id: "daniReyes",
-    image:
-      "https://images.unsplash.com/photo-1498078139088-ba6ce538497d?w=400&h=400&auto=format&fit=crop&crop=faces&q=80",
-  },
-  {
-    id: "tylerBrooks",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&auto=format&fit=crop&crop=faces&q=80",
+      "https://images.unsplash.com/photo-1598901986949-f593ff2a31a6?w=400&h=400&auto=format&fit=crop&q=80",
   },
 ];

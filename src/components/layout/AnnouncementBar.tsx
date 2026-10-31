@@ -2,20 +2,25 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export function AnnouncementBar() {
   const [visible, setVisible] = useState(true);
   const t = useTranslations("announcement");
+  const tCommon = useTranslations("common");
 
   if (!visible) return null;
 
   return (
-    <div className="bg-secondary text-sm py-2.5 px-4 text-center relative border-b border-accent/20">
+    <div className="bg-secondary text-sm py-2.5 pl-4 pr-10 text-center relative border-b border-accent/15">
       <p className="text-muted">
         {t("text")}{" "}
-        <span className="text-accent font-semibold tracking-wider">
-          {t("code")}
-        </span>
+        <Link
+          href="/booking"
+          className="text-accent font-semibold tracking-wide underline-offset-4 hover:underline whitespace-nowrap"
+        >
+          {tCommon("bookAppointment")} →
+        </Link>
       </p>
       <button
         onClick={() => setVisible(false)}

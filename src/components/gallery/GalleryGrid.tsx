@@ -49,7 +49,9 @@ export function GalleryGrid() {
           {filteredImages.map((image, index) => (
             <div
               key={image.id}
-              className="overflow-hidden rounded-lg cursor-pointer"
+              data-reveal="zoom"
+              style={{ "--d": `${(index % 3) * 100}ms` } as React.CSSProperties}
+              className="group overflow-hidden rounded-3xl cursor-pointer shadow-sm hover:shadow-xl hover:shadow-espresso/15 transition-shadow duration-500"
               onClick={() => setLightboxIndex(index)}
             >
               <Image
@@ -57,7 +59,7 @@ export function GalleryGrid() {
                 alt={t(`images.${image.id}`)}
                 width={600}
                 height={400}
-                className="object-cover w-full h-72 hover:scale-105 transition-transform duration-300"
+                className="object-cover w-full h-72 transition-transform duration-[1.2s] ease-out group-hover:scale-110"
               />
             </div>
           ))}

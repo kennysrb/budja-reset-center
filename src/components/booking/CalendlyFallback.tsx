@@ -8,7 +8,7 @@ interface CalendlyFallbackProps {
 export function CalendlyFallback({ url, t }: CalendlyFallbackProps) {
   return (
     <div className="flex flex-col items-center justify-center py-20 px-6">
-      <div className="bg-secondary border border-muted/20 rounded-2xl p-12 text-center flex flex-col items-center gap-6 max-w-md w-full">
+      <div className="card p-12 text-center flex flex-col items-center gap-6 max-w-md w-full">
         <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center">
           <svg
             width="30"

@@ -5,6 +5,8 @@ import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { siteConfig } from "@/data/siteConfig";
 import { routing } from "@/i18n/routing";
+import { Logo } from "@/components/ui/Logo";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -31,33 +33,32 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   return (
     <div className="fixed inset-0 z-[60] bg-primary flex flex-col animate-fadeIn">
       {/* Header — mirrors navbar height and padding */}
-      <div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8 border-b border-white/5">
-        <Link
-          href="/"
-          onClick={onClose}
-          className="font-heading text-accent text-xl font-bold tracking-widest uppercase"
-        >
-          {t("logo")}
+      <div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8 border-b border-accent/15">
+        <Link href="/" onClick={onClose} aria-label={t("logo")}>
+          <Logo />
         </Link>
-        <button
-          onClick={onClose}
-          aria-label={tCommon("closeMenu")}
-          className="flex flex-col items-center justify-center w-9 h-9 text-light hover:text-accent transition-colors duration-200"
-        >
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <button
+            onClick={onClose}
+            aria-label={tCommon("closeMenu")}
+            className="flex flex-col items-center justify-center w-9 h-9 text-light hover:text-accent transition-colors duration-200"
           >
-            <line x1="18" y1="6" x2="6" y2="18" />
-            <line x1="6" y1="6" x2="18" y2="18" />
-          </svg>
-        </button>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </div>
       </div>
 
       {/* Nav links */}
@@ -66,10 +67,11 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <Link
             key={link.href}
             href={link.href}
-            className={`font-heading text-4xl uppercase tracking-widest transition-colors duration-200 ${
+            aria-current={pathname === link.href ? "page" : undefined}
+            className={`font-heading text-3xl sm:text-4xl uppercase tracking-[0.2em] transition-colors duration-200 ${
               pathname === link.href
-                ? "text-white"
-                : "text-light/40 hover:text-white"
+                ? "text-accent"
+                : "text-light/60 hover:text-light"
             }`}
             onClick={onClose}
           >
@@ -105,7 +107,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               className={`px-3 py-1 rounded-full text-xs uppercase tracking-widest font-medium transition-colors duration-200 disabled:opacity-50 ${
                 loc === locale
                   ? "bg-accent text-primary"
-                  : "border border-muted/30 text-muted hover:text-white hover:border-white/30"
+                  : "border border-muted/30 text-muted hover:text-light hover:border-light/30"
               }`}
             >
               {loc}
@@ -117,7 +119,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         <Link
           href="/booking"
           onClick={onClose}
-          className="bg-accent text-primary font-bold uppercase tracking-widest text-sm px-8 py-3 rounded hover:bg-accent-light transition-colors duration-200"
+          className="bg-accent text-primary font-semibold uppercase tracking-widest text-sm px-8 py-3 rounded-full hover:bg-accent-dark transition-colors duration-200"
         >
           {tCommon("bookAppointment")}
         </Link>

@@ -15,7 +15,7 @@ interface ButtonProps {
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    "bg-accent text-primary font-semibold hover:bg-amber-500 transition-colors duration-200",
+    "bg-accent text-primary font-semibold hover:bg-accent-dark transition-colors duration-200",
   outline:
     "border-2 border-accent text-accent hover:bg-accent hover:text-primary transition-colors duration-200",
 };
@@ -35,7 +35,7 @@ export function Button({
   onClick,
 }: ButtonProps) {
   const classes = cn(
-    "inline-block rounded font-body cursor-pointer",
+    "inline-block rounded-full font-body cursor-pointer",
     variantClasses[variant],
     sizeClasses[size],
     className,
