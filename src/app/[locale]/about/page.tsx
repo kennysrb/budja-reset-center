@@ -6,6 +6,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { BookingCTA } from "@/components/home/BookingCTA";
 import { team } from "@/data/team";
+import { Link } from "@/i18n/navigation";
 
 export async function generateMetadata({
   params,
@@ -24,6 +25,7 @@ export async function generateMetadata({
 
 export default async function AboutPage() {
   const t = await getTranslations("about");
+  const tCommon = await getTranslations("common");
 
   return (
     <>
@@ -57,31 +59,37 @@ export default async function AboutPage() {
         {/* Section 2: Therapist */}
         <section>
           <SectionHeading title={t("teamTitle")} />
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="space-y-8">
             {team.map((member) => (
-              <div
+              <article
                 key={member.id}
-                data-reveal
-                className="card card-hover p-10 text-center flex flex-col w-full max-w-sm"
+                data-reveal="zoom"
+                className="card group overflow-hidden grid grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto"
               >
-                <Image
-                  src={member.image}
-                  alt={t(`team.${member.id}.name`)}
-                  width={200}
-                  height={200}
-                  sizes="160px"
-                  className="rounded-full object-cover w-40 h-40 mx-auto mb-6 ring-4 ring-accent/20 ring-offset-4 ring-offset-secondary"
-                />
-                <h3 className="text-xl font-heading uppercase tracking-[0.15em] text-light mb-1">
-                  {t(`team.${member.id}.name`)}
-                </h3>
-                <p className="text-accent text-sm mb-3">
-                  {t(`team.${member.id}.role`)}
-                </p>
-                <p className="text-muted text-sm">
-                  {t(`team.${member.id}.bio`)}
-                </p>
-              </div>
+                <div className="relative aspect-[889/820] md:aspect-auto md:min-h-[28rem] overflow-hidden">
+                  <Image
+                    src={member.image}
+                    alt={t(`team.${member.id}.imageAlt`)}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 512px"
+                    className="object-cover object-[70%_40%] transition-transform duration-[1.5s] ease-out group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-8 md:p-12 flex flex-col justify-center">
+                  <p className="text-accent text-xs uppercase tracking-[0.35em] mb-3">
+                    {t(`team.${member.id}.role`)}
+                  </p>
+                  <h3 className="font-heading text-3xl md:text-4xl uppercase tracking-[0.1em] text-light mb-5">
+                    {t(`team.${member.id}.name`)}
+                  </h3>
+                  <p className="text-muted leading-relaxed mb-8">
+                    {t(`team.${member.id}.bio`)}
+                  </p>
+                  <Link href="/booking" className="btn-gold self-start">
+                    {tCommon("bookAppointment")}
+                  </Link>
+                </div>
+              </article>
             ))}
           </div>
         </section>

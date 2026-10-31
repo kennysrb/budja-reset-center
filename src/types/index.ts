@@ -28,6 +28,7 @@ export interface OpeningHours {
 
 export interface SiteConfig {
   name: string;
+  therapist: string;
   tagline: string;
   siteUrl: string;
   email: string;

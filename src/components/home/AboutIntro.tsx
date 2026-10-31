@@ -12,11 +12,11 @@ export async function AboutIntro() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div data-reveal="zoom" className="group relative w-full aspect-[4/3] rounded-[2.5rem] overflow-hidden shadow-2xl shadow-espresso/15">
             <Image
-              src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1000&auto=format&fit=crop&q=80"
+              src="/images/team/blaz-budja.jpg"
               alt={t("imageAlt")}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
+              className="object-cover object-[70%_40%] transition-transform duration-[1.5s] ease-out group-hover:scale-105"
             />
           </div>
           <div data-reveal style={{ "--d": "150ms" } as React.CSSProperties}>

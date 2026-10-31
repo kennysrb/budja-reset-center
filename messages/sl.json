@@ -74,9 +74,9 @@
     "subtitle": "Miren prostor, topla svetloba in čas samo zate."
   },
   "aboutIntro": {
-    "imageAlt": "Masaža hrbta v studiu Budja Reset Center",
+    "imageAlt": "Masažni terapevt Blaž Budja med masažo v studiu v Škofljici",
     "title": "O meni",
-    "paragraph1": "Sem Budja, certificirani maser. Izvajam klasično, športno in globinsko masažo, masažo z ventuzami in analizo drže.",
+    "paragraph1": "Sem Blaž Budja, certificirani maser. Izvajam klasično, športno in globinsko masažo, masažo z ventuzami in analizo drže.",
     "paragraph2": "Pred vsako masažo si vzamem čas za kratek pogovor. Pomembno mi je, da razumem, kaj potrebuješ, zato na podlagi pogovora skupaj določiva najprimernejši pristop."
   },
   "bookingCta": {
@@ -171,9 +171,10 @@
     "teamTitle": "Terapevt",
     "team": {
       "budja": {
-        "name": "Budja",
+        "name": "Blaž Budja",
         "role": "Certificirani maser",
-        "bio": "Klasična, športna in globinska masaža · ventuze · analiza drže."
+        "bio": "Pri vsaki obravnavi združujem klasično, športno in globinsko masažo, ventuze in analizo drže — vedno prilagojeno tvojim težavam in ciljem.",
+        "imageAlt": "Masažni terapevt Blaž Budja med masažo"
       }
     }
   },

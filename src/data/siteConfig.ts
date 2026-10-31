@@ -2,6 +2,7 @@ import { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
   name: "Budja Reset Center",
+  therapist: "Blaž Budja",
   tagline: "Masaža · ventuze · analiza drže",
   // TODO(client): production domain. Set NEXT_PUBLIC_SITE_URL in the deployment env.
   siteUrl: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, ""),

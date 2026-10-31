@@ -74,9 +74,9 @@
     "subtitle": "A calm space, warm light and time just for you."
   },
   "aboutIntro": {
-    "imageAlt": "Back massage at the Budja Reset Center studio",
+    "imageAlt": "Massage therapist Blaž Budja during a session at the studio in Škofljica",
     "title": "About me",
-    "paragraph1": "I'm Budja, a certified massage therapist. I offer classic, sports and deep-tissue massage, cupping and posture analysis.",
+    "paragraph1": "I'm Blaž Budja, a certified massage therapist. I offer classic, sports and deep-tissue massage, cupping and posture analysis.",
     "paragraph2": "Before every massage I take time for a short conversation. It matters to me that I understand what you need, so together we choose the approach that suits you best."
   },
   "bookingCta": {
@@ -171,9 +171,10 @@
     "teamTitle": "Therapist",
     "team": {
       "budja": {
-        "name": "Budja",
+        "name": "Blaž Budja",
         "role": "Certified massage therapist",
-        "bio": "Classic, sports and deep-tissue massage · cupping · posture analysis."
+        "bio": "In every session I combine classic, sports and deep-tissue massage, cupping and posture analysis — always tailored to your needs and goals.",
+        "imageAlt": "Massage therapist Blaž Budja during a massage"
       }
     }
   },

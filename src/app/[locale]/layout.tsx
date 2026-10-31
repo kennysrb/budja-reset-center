@@ -11,6 +11,7 @@ import Footer from "@/components/layout/Footer";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
 import { FloatingActions } from "@/components/layout/FloatingActions";
 import { RevealObserver } from "@/components/layout/RevealObserver";
+import { ThemeSync } from "@/components/layout/ThemeSync";
 import "../globals.css";
 
 const jost = Jost({
@@ -70,6 +71,7 @@ export default async function LocaleLayout({
           <Footer />
           <FloatingActions />
           <RevealObserver />
+          <ThemeSync />
         </NextIntlClientProvider>
       </body>
     </html>

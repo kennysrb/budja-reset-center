@@ -35,6 +35,7 @@ export function businessJsonLd(locale: string, description: string) {
     priceRange: `${Math.min(...prices)}–${Math.max(...prices)} €`,
     currenciesAccepted: "EUR",
     sameAs: [siteConfig.instagram.url],
+    founder: { "@type": "Person", name: siteConfig.therapist, jobTitle: "Massage therapist" },
   };
 }
 
